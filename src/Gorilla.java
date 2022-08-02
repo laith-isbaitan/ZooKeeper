@@ -1,4 +1,7 @@
 public class Gorilla extends Mammal{
+    public Gorilla() {
+        setEnergyLevel(100);
+    }
 
     public void throwSomething(){
         System.out.println("throw");
